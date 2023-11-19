@@ -3,7 +3,17 @@ body{
     color: #434455;
     background-color: #ffffff;}
 
-ul{list-style-type: none;}
+ul, ol {list-style-type: none;
+margin-bottom: 0;
+margin-top: 0;
+margin-left: 0;
+}
+
+
+img {display: block;
+max-width: 100%;
+height: auto;}
+
 
 .link {text-decoration: none;
     line-height: 1.5;
@@ -13,24 +23,59 @@ ul{list-style-type: none;}
 .link:hover,
 .link:focus {color:#404BBF}
 
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
 button{cursor: pointer;}
 
 button:hover,
 button:focus{ background-color: #404BBF;}
 
 .page-header{
+    display: block;
     color: #2E2F42;
     background-color: #ffffff;}
 
+.container{
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.page-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-div{
+    display: flex;
+align-items: center;
+justify-content: space-between;}
 
-/*.home{color:#2E2F42}
-.galery{color: #2E2F42;}
-.contact{color: #2E2F42;}*/
+
+
 .addres{font-style: normal}
 
+.addres-list{
+    display: flex;
+    align-items: end;
+}
+.menu-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
-
-.mail{color: #434455;}
+.mail{
+    color: #434455;
+    margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;}
 
 
     .logo{color:  #4d5ae5;
@@ -52,19 +97,32 @@ button:focus{ background-color: #404BBF;}
     .logo-stud {color: #2e2f42;}
 
         .nav{
+            display: flex;
+            column-gap: 40px;
             font-size: 16px;
             font-weight: 500;
             line-height: 1.5; /* 150% */
             letter-spacing: 0.02em;}
 
-        .main-page{background-color: #2e2f42;}
+        .main-page{
+        background-color: #2e2f42;}
+
+        
 
         .solution{color: #ffffff;
             text-align: center;           
             font-size: 56px;
             font-weight: 700;
             line-height: 1.07; /* 107.143% */
-            letter-spacing: 0.02em;}
+            letter-spacing: 0.02em;
+            max-width: 496px;
+            margin: auto;
+            }
+
+        .main-page-container{
+            max-width: 100%;
+            height: 600px;
+            text-align: start;}
 
         .text-button{color:  #FFfffF; 
             font-size: 16px;
@@ -73,15 +131,50 @@ button:focus{ background-color: #404BBF;}
             letter-spacing: 0.04em;}
 
         button{
-            background:  #4D5AE5;}
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
+        background:  #4D5AE5;
+        min-width: 169px; 
+        border: none;
+        height: 56px;
+        padding: 16px 32px;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
 
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+    .benefits-list{
+        display: flex;
+        }
+
+    .benefits-item{
+        display: flex;
+    gap: 24px;
+    margin-top: 118px;
+    margin-bottom: 120px;
+        }
 
         .text-title { 
             color:  #2E2F42;
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2; /* 120% */
-            letter-spacing: 0.02em;}
+            letter-spacing: 0.02em;
+            width: calc((100% - 72px) / 4);}
 
 
         .text-benefits{color: #434455;
@@ -90,9 +183,20 @@ button:focus{ background-color: #404BBF;}
             line-height: 1.5; /* 150% */
             letter-spacing: 0.02em;}
 
-        .team{background-color: #F4F4FD}
 
-        .fotocards{background-color:#FFFFFF}
+        .team-list{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-top: 72px;
+            column-gap: 24px;
+        }
+
+        .team {background-color: #F4F4FD}
+
+        .fotocards{    margin-bottom: 32px;
+            border-radius: 0px 0px 4px 4px;
+            background: var(--WHITE, #fff);}
 
         .text-team{color: #2E2F42;
             text-align: center;
@@ -100,6 +204,7 @@ button:focus{ background-color: #404BBF;}
             font-weight: 700;
             line-height: 1.11; /* 111.111% */
             letter-spacing: 0.02em;
+            padding-bottom: 72px;
             text-transform: capitalize;}
 
 
@@ -123,7 +228,17 @@ button:focus{ background-color: #404BBF;}
             font-weight: 700;
             line-height: 1.11; /* 111.111% */
             letter-spacing: 0.02em;
-            text-transform: capitalize}
+            text-transform: capitalize;
+        margin-top: 120px;
+    margin-bottom: 72px;}
+
+        .portfolio-list{display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-top: 72px;
+            width: calc(100% -2) / 3px;}
+
+        .portfolio-foto{}
 
         .app-main{color:  #2E2F42;
             font-size: 20px;
@@ -153,7 +268,7 @@ button:focus{ background-color: #404BBF;}
         .benefits {
         background-color: #fff;}
 
-        .team{background-color: fff;}
+        
 
 
         .portfolio {background-color: #ffffff;}

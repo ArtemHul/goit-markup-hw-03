@@ -14,37 +14,42 @@
 </head>
 <body>
 <!----------HEADER---->
-    <header class="page-hedader"> 
-    <nav >
+    <header class="page-header"> 
+        <div class="container header-div">
+    <nav class="page-nav">
         <a class="logo link" href="./index.html"> Web <span class="logo-stud">Studio</span> </a>
         <ul class="nav">
             <li class="link">
-                <a class="link" href="./index.html">Studio</a></li>
+                <a class="link menu-link" href="./index.html">Studio</a></li>
             <li class="link">
-                <a class="link" href="">Portfolio</a></li>
+                <a class="link menu-link" href="">Portfolio</a></li>
             <li class="link">
-                <a class="link" href="">Contacts</a></li>
+                <a class="link menu-link" href="">Contacts</a></li>
         </ul>
-    </nav>
+    </nav class="page-nav">
         <address class="addres">
-        <ul>
+        <ul class="addres-list">
             <li>
                 <a class="link mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li>
                 <a class="link mail" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
         </address>
+    </div>
     </header>
 
 <!----------MAIN-->
     <main>
     <section class="main-page">
+        <div class="container main-page-container">
         <h1 class="solution">Effective Solutions for Your Business</h1>
        <button class="text-button link" type="button">Order Service</button>
+    </div>
     </section>
     <section class="benefits">
-        <h2 hidden>benefits</h2>
-        <ul>
+        <div class="container benefits-list">
+        <h2 class="visually-hidden">benefits</h2>
+        <ul class="benefits-item">
         <li><h3 class="text-title">Strategy</h3>
             <p class="text-benefits">Our goal is to identify the business
             problem to walk away with the perfect and creative solution. </p> </li>
@@ -56,11 +61,13 @@
         <li><h3 class="text-title">Technologies</h3>
             <p class="text-benefits">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p> </li>
        </ul>
+    </div>
     </section>
 
     <section class="team">
+        <div class="container team-container">
         <h2 class="text-team">Our Team</h2>
-    <ul>
+    <ul class="te class="portfolio-list">
         <li class="fotocards">
             <img src="./images/img0.jpg" 
             alt="Mark Guerrero"
@@ -88,13 +95,15 @@
             <h3 class="name-workers">Daniel Wilson</h3>
             <p class="position-text">UI Designer</p></li>
         </ul>
+    </div>
     </section>
 
     <section class="portfolio">
+        <div class="container portfolio-container">
     <h4 class="text-portfolio">Our Portfolio</h4>
     
-<ul>
-    <li>
+<ul class="portfolio-list">
+    <li class="portfolio-foto">
         <img src="./images/portfol1.jpg"   
         alt="Banking"
         width="360"
@@ -102,7 +111,7 @@
         <h3 class="app-main">Banking App</h3>
         <p class="app-text">App</p>
     </li>
-    <li>
+    <li class="portfolio-foto">
         <img src="./images/portfol2.jpg" 
         alt="Cashless"
         width="360"
@@ -110,7 +119,7 @@
         <h3 class="app-main">Cashless Payment</h3>
         <p class="app-text">Marketing</p>
     </li>
-    <li>
+    <li class="portfolio-foto">
         <img src="./images/portfol3.jpg" 
         alt="Meditation"
         width="360"
@@ -118,7 +127,7 @@
         <h3 class="app-main">Meditation App</h3>
         <p class="app-text">App</p>
     </li>
-    <li>
+    <li class="portfolio-foto">
         <img src="./images/portfol4.jpg" 
         alt="Taxi"
         width="360"
@@ -126,7 +135,7 @@
         <h3 class="app-main">Taxi Service</h3>
         <p class="app-text">Marketing</p>
     </li>
-    <li>
+    <li class="portfolio-foto">
         <img src="./images/portfol5.jpg" 
         alt="Screen"
         width="360"
@@ -134,7 +143,7 @@
         <h3 class="app-main">Screen Illustrations</h3>
         <p class="app-text">Design</p>
     </li>
-    <li>
+    <li class="portfolio-foto">
         <img src="./images/portfol6.jpg" 
         alt="Courses"
         width="360"
@@ -144,7 +153,7 @@
     </li>
 </ul>
 
-
+</div>
     </section>
 </main>
 <!----------FOOTER---->
