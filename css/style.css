@@ -119,6 +119,13 @@ justify-content: space-between;}
             margin: auto;
             }
 
+            .effective-solution {
+                width: 496px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 188px;
+                padding-bottom: 48px;}
+
         .main-page-container{
             max-width: 100%;
             height: 600px;
@@ -164,8 +171,8 @@ justify-content: space-between;}
     .benefits-item{
         display: flex;
     gap: 24px;
-    margin-top: 118px;
-    margin-bottom: 120px;
+    /* margin-top: 118px; */
+    /* margin-bottom: 120px; */
         }
 
         .text-title { 
@@ -207,6 +214,11 @@ justify-content: space-between;}
             padding-bottom: 72px;
             text-transform: capitalize;}
 
+        .img-team{
+            margin-bottom: 32px;
+            border-radius: 0px 0px 4px 4px;
+            background: var(--WHITE, #fff);}
+
 
         .name-workers{color: #2E2F42;
             
@@ -232,13 +244,15 @@ justify-content: space-between;}
         margin-top: 120px;
     margin-bottom: 72px;}
 
-        .portfolio-list{display: flex;
+        .portfolio-list{
+            display: flex;
             justify-content: center;
-            flex-wrap: wrap;
+            text-align: center;
             padding-top: 72px;
-            width: calc(100% -2) / 3px;}
+            column-gap: 24px;}
 
-        .portfolio-foto{}
+        .portfolio-foto{   
+             width: calc((100% - 48px) / 3);}
 
         .app-main{color:  #2E2F42;
             font-size: 20px;
@@ -251,6 +265,8 @@ justify-content: space-between;}
             font-weight: 400;
             line-height: 1.5; /* 150% */
             letter-spacing: 0.02em;}
+
+        .main-footer
 
         .text-footer {color: #F4F4FD;
             font-size: 16px;
@@ -265,10 +281,13 @@ justify-content: space-between;}
 
 
 
-        .benefits {
+        .benefits {padding-top: 120px;
+            padding-bottom: 120px;
         background-color: #fff;}
 
         
 
 
-        .portfolio {background-color: #ffffff;}
+        .portfolio {background-color: #ffffff;
+            padding-top: 120px;
+            padding-bottom: 120px;}
