@@ -282,14 +282,17 @@ justify-content: space-between;}
         }
 
         .portfolio-foto {
-             width: calc((100% - 48px) / 3);}
+             width: calc((100% - 48px) / 3);
+             gap: 24px;}
 
-        .app-main{color:  #2E2F42;
+        .app-main{
+            margin-bottom: 8px;
+            color:  #2E2F42;
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2; /* 120% */
-            letter-spacing: 0.02em
-            margin-bottom: 8px;}
+            letter-spacing: 0.02em}
+
 
         .app-text{color: #434455;
             font-size: 16px;
