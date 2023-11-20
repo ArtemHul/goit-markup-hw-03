@@ -25,16 +25,20 @@ height: auto;}
 
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0;}
 
-}
+    button{cursor: pointer;}
 
-button{cursor: pointer;}
+    button:hover,
+    button:focus{ background-color: #404BBF;}
 
-button:hover,
-button:focus{ background-color: #404BBF;}
+
+/* HEADER=============== */
+
+
 
 .page-header{
+    border-bottom: 1px solid #e7e9fc;
     display: block;
     color: #2E2F42;
     background-color: #ffffff;}
@@ -84,7 +88,8 @@ justify-content: space-between;}
         font-weight: 700;
         line-height: 1.17; /* 116.667% */
         letter-spacing: 0.03em;
-        text-transform: uppercase;}
+        text-transform: uppercase;
+        margin-right: 76px;}
 
     .web{ color:#4d5ae5;
         font-family: Raleway;
@@ -98,14 +103,17 @@ justify-content: space-between;}
 
         .nav{
             display: flex;
-            column-gap: 40px;
+            gap: 40px;
             font-size: 16px;
             font-weight: 500;
             line-height: 1.5; /* 150% */
             letter-spacing: 0.02em;}
 
+/* MAIN PAGE--======================= */
+
         .main-page{
-        background-color: #2e2f42;}
+        background-color: #2e2f42;
+        padding: 188px 0;}
 
         
 
@@ -181,7 +189,11 @@ justify-content: space-between;}
             font-weight: 500;
             line-height: 1.2; /* 120% */
             letter-spacing: 0.02em;
-            width: calc((100% - 72px) / 4);}
+            
+            margin-bottom: 8px;}
+
+        .list-beneff 
+        {width: calc((100% - 72px) / 4);}
 
 
         .text-benefits{color: #434455;
@@ -199,11 +211,14 @@ justify-content: space-between;}
             column-gap: 24px;
         }
 
-        .team {background-color: #F4F4FD}
+        .team {background-color: #F4F4FD;
+            padding: 120px 0;}
 
-        .fotocards{    margin-bottom: 32px;
+        .fotocards{    
+            margin-bottom: 32px;
             border-radius: 0px 0px 4px 4px;
-            background: var(--WHITE, #fff);}
+            background: var(--WHITE, #fff);
+            width: calc((100% - 72px) / 4);}
 
         .text-team{color: #2E2F42;
             text-align: center;
@@ -212,7 +227,8 @@ justify-content: space-between;}
             line-height: 1.11; /* 111.111% */
             letter-spacing: 0.02em;
             padding-bottom: 72px;
-            text-transform: capitalize;}
+            text-transform: capitalize;
+            margin-bottom: 72px;}
 
         .img-team{
             margin-bottom: 32px;
@@ -225,14 +241,19 @@ justify-content: space-between;}
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2; /* 120% */
-            letter-spacing: 0.02em;}
+            letter-spacing: 0.02em;
+            text-align: center;
+            margin-bottom: 8px}
+
+        .list-workers-div{padding: 32px 0;}
 
         .position-text{color: #434455;
             
             font-size: 16px;
             font-weight: 400;
             line-height: 1.5; /* 150% */
-            letter-spacing: 0.02em;}
+            letter-spacing: 0.02em;
+            text-align: center;}
 
         .text-portfolio{color:  #2E2F42;
             text-align: center;
@@ -246,19 +267,28 @@ justify-content: space-between;}
 
         .portfolio-list{
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             text-align: center;
             padding-top: 72px;
-            column-gap: 24px;}
+            gap: 24px;
+            row-gap: 48px;}
 
-        .portfolio-foto{   
+        .portfol-foto-div{
+            padding: 32px 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+        }
+
+        .portfolio-foto {
              width: calc((100% - 48px) / 3);}
 
         .app-main{color:  #2E2F42;
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2; /* 120% */
-            letter-spacing: 0.02em}
+            letter-spacing: 0.02em
+            margin-bottom: 8px;}
 
         .app-text{color: #434455;
             font-size: 16px;
@@ -274,11 +304,13 @@ justify-content: space-between;}
             line-height: 1.5; /* 150% */
             letter-spacing: 0.02em;}
 
-        .footer{background-color: #2e2f42;}
+        .footer{background-color: #2e2f42;
+            padding: 100px 0;}
 
         .studio{color: #f4f4fd}
 
-
+        .link logo{display: inline-block;
+        margin-bottom: 16px;}
 
 
         .benefits {padding-top: 120px;
