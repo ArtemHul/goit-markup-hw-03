@@ -91,7 +91,8 @@ justify-content: space-between;}
         line-height: 1.17; /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-right: 76px;}
+        margin-right: 76px;
+        }
 
     .web{ color:#4d5ae5;
         font-family: Raleway;
@@ -273,8 +274,8 @@ justify-content: space-between;}
             justify-content: center;
             text-align: center;
             padding-top: 72px;
-            gap: 24px;}
-            /* row-gap: 48px;} */
+            gap: 24px;
+            row-gap: 48px;}
 
         .portfol-foto-div{
             padding: 32px 16px;
@@ -317,6 +318,8 @@ justify-content: space-between;}
         .link{
         display: inline-block;
         ;}
+
+    .logo-footer{ margin-bottom: 16px;}
 
 
         .benefits {padding-top: 120px;
