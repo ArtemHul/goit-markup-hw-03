@@ -17,7 +17,8 @@ height: auto;}
 .link {text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42 }
+    color: #2E2F42;
+    align-items: center; }
 
 .link:hover,
 .link:focus {color:#404BBF}
@@ -47,14 +48,14 @@ h1, h2, h3, h4, h5, h6, p {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;}
     
-}
 .page-nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
+    align-items: center;}
+
+
 .header-div{
     display: flex;
 align-items: center;
