@@ -233,13 +233,6 @@ justify-content: space-between;}
             text-transform: capitalize;
             margin-bottom: 72px;}
 
-        /* .team-list{display: flex; */
-            flex-wrap: wrap;
-            justify-content: center;
-            text-align: center;
-            padding-top: 72px;
-            gap: 24px;
-            /* row-gap: 48px;} */
 
         .img-team{
             margin-bottom: 32px;
