@@ -15,7 +15,8 @@ margin-left: 0;
 padding-left: 0;}
 
 
-img {display: block;
+img {
+display: block;
 max-width: 100%;
 height: auto;}
 
@@ -214,7 +215,7 @@ h1, h2, h3, h4, h5, h6, p {
             font-weight: 700;
             line-height: 1.11; /* 111.111% */
             letter-spacing: 0.02em;
-            padding-bottom: 72px;
+            margin-bottom: 72px;
             text-transform: capitalize;}
 
 
