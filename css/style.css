@@ -1,5 +1,10 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 16;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.125;
     color: #434455;
     background-color: #ffffff;}
 
@@ -19,7 +24,7 @@ height: auto;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    align-items: center; }
+    display: inline-block; }
 
 .link:hover,
 .link:focus {color:#404BBF}
@@ -39,10 +44,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .page-header{
-    border-bottom: 1px solid #e7e9fc;
-    display: block;
-    color: #2E2F42;
-    background-color: #ffffff;}
+    border-bottom: 1px solid #e7e9fc;}
 
 .container{
     max-width: 1158px;
@@ -53,18 +55,16 @@ h1, h2, h3, h4, h5, h6, p {
 
 .page-nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;}
+    align-items: center;
+    margin-right: auto;}
 
 
 .header-div{
     display: flex;
 align-items: center;
-justify-content: space-between;}
+padding: 0 15px;}
 
 
-
-.addres{font-style: normal}
 
 .addres-list{
     display: flex;
@@ -72,16 +72,21 @@ justify-content: space-between;}
     gap: 40px}
 
 .menu-link {
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+    color: #2E2F42;
+    padding: 24px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;}
 
 .mail{
     color: #434455;
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;}
+    padding: 24px 0;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+}
 
 
     .logo{color:  #4d5ae5;
@@ -107,10 +112,7 @@ justify-content: space-between;}
         .nav{
             display: flex;
             gap: 40px;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.5; /* 150% */
-            letter-spacing: 0.02em;}
+            }
 
 /* MAIN PAGE--======================= */
 
@@ -316,10 +318,7 @@ justify-content: space-between;}
 
         .studio{color: #f4f4fd}
 
-        .link{
-        display: inline-block;
-        ;}
-
+       
     .logo-footer{ margin-bottom: 16px;}
 
 
