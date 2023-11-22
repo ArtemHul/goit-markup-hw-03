@@ -178,7 +178,6 @@ h1, h2, h3, h4, h5, h6, p {
             font-weight: 500;
             line-height: 1.2; /* 120% */
             letter-spacing: 0.02em;
-            
             margin-bottom: 8px;}
 
         .list-beneff 
@@ -196,7 +195,8 @@ h1, h2, h3, h4, h5, h6, p {
             display: flex;
             gap: 24px;}
 
-        .team {background-color: #F4F4FD;
+        .team {
+            background-color: #F4F4FD;
             padding: 120px 0;}
 
         .fotocards{    
@@ -282,16 +282,17 @@ h1, h2, h3, h4, h5, h6, p {
             font-weight: 400;
             line-height: 1.5; /* 150% */
             letter-spacing: 0.02em;
-        width: 264px;}
+            width: 264px;}
 
-        .footer{background-color: #2e2f42;
+        .footer{
+            background-color: #2e2f42;
             padding: 100px 0;}
 
         .studio{color: #f4f4fd}
 
        
     .logo-footer{ 
-        margin-bottom: 16px;
+    margin-bottom: 16px;
     display: inline-block;}
 
 
